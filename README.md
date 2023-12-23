@@ -30,3 +30,8 @@ Last night you partied a little too hard. Now there's a black and white photo of
 The pixels in the input image are represented as integers. The algorithm distorts the input image in the following way: Every pixel x in the output image has a value equal to the average value of the pixel values from the 3 × 3 square that has its center at x, including x itself. All the pixels on the border of x are then removed.
 Return the blurred image as an integer, with the fractions rounded down.
 </p>
+
+## Minesweeper
+<p>
+In the popular Minesweeper game you have a board with some mines and those cells that don't contain a mine have a number in it that indicates the total number of mines in the neighboring cells. Starting off with some arrangement of mines we want to create a Minesweeper game setup.
+</p>

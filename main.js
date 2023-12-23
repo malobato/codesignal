@@ -4,6 +4,7 @@ import * as palindromeRearranging from './modules/palindromeRearranging'
 import * as isIPv4Address from './modules/isIPv4Address'
 import * as avoidObstacles from './modules/avoidObstacles'
 import * as boxBlur from './modules/boxBlur'
+import * as minesweeper from './modules/minesweeper'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -34,6 +35,18 @@ document.querySelector('#app').innerHTML = `
     [5, 6, 2, 2],
     [6, 10, 7, 8],
     [1, 4, 2, 0]
+  ])}
+</p>
+<p>
+  minesweeper([
+    [true, false, false],
+    [false, true, false],
+    [false, false, false]
+  ]) =
+  ${minesweeper.solution([
+    [true, false, false],
+    [false, true, false],
+    [false, false, false]
   ])}
 </p>
 `
