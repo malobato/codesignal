@@ -5,6 +5,7 @@ import * as isIPv4Address from './modules/isIPv4Address'
 import * as avoidObstacles from './modules/avoidObstacles'
 import * as boxBlur from './modules/boxBlur'
 import * as minesweeper from './modules/minesweeper'
+import * as arrayReplace from './modules/arrayReplace'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -48,5 +49,9 @@ document.querySelector('#app').innerHTML = `
     [false, true, false],
     [false, false, false]
   ])}
+</p>
+<p>
+  arrayReplace([1, 2, 1], 1, 3)) =
+  ${arrayReplace.solution([1, 2, 1], 1, 3)}
 </p>
 `

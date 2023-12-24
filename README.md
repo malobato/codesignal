@@ -35,3 +35,8 @@ Return the blurred image as an integer, with the fractions rounded down.
 <p>
 In the popular Minesweeper game you have a board with some mines and those cells that don't contain a mine have a number in it that indicates the total number of mines in the neighboring cells. Starting off with some arrangement of mines we want to create a Minesweeper game setup.
 </p>
+
+## Array Replace
+<p>
+Given an array of integers, replace all the occurrences of elemToReplace with substitutionElem.
+</p>
