@@ -40,3 +40,8 @@ In the popular Minesweeper game you have a board with some mines and those cells
 <p>
 Given an array of integers, replace all the occurrences of elemToReplace with substitutionElem.
 </p>
+
+## Even Digits Only
+<p>
+Check if all digits of the given integer are even.
+</p>

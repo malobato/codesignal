@@ -6,6 +6,7 @@ import * as avoidObstacles from './modules/avoidObstacles'
 import * as boxBlur from './modules/boxBlur'
 import * as minesweeper from './modules/minesweeper'
 import * as arrayReplace from './modules/arrayReplace'
+import * as evenDigitsOnly from './modules/evenDigitsOnly'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -53,5 +54,9 @@ document.querySelector('#app').innerHTML = `
 <p>
   arrayReplace([1, 2, 1], 1, 3)) =
   ${arrayReplace.solution([1, 2, 1], 1, 3)}
+</p>
+<p>
+  evenDigitsOnly(24680) =
+  ${evenDigitsOnly.solution(24680)}
 </p>
 `
