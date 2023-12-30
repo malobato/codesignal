@@ -61,7 +61,7 @@ document.querySelector('#app').innerHTML = `
   ${evenDigitsOnly.solution(24680)}
 </p>
 <p>
-  variebleName('var_1__Int') =
+  variableName('var_1__Int') =
   ${variableName.solution('var_1__Int')}
 </p>
 `
