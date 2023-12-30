@@ -45,3 +45,9 @@ Given an array of integers, replace all the occurrences of elemToReplace with su
 <p>
 Check if all digits of the given integer are even.
 </p>
+
+## Vairable Name
+<p>
+Correct variable names consist only of English letters, digits and underscores and they can't start with a digit.
+Check if the given string is a correct variable name.
+</p>

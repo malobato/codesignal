@@ -7,6 +7,7 @@ import * as boxBlur from './modules/boxBlur'
 import * as minesweeper from './modules/minesweeper'
 import * as arrayReplace from './modules/arrayReplace'
 import * as evenDigitsOnly from './modules/evenDigitsOnly'
+import * as variableName from './modules/variableName'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -58,5 +59,9 @@ document.querySelector('#app').innerHTML = `
 <p>
   evenDigitsOnly(24680) =
   ${evenDigitsOnly.solution(24680)}
+</p>
+<p>
+  variebleName('var_1__Int') =
+  ${variableName.solution('var_1__Int')}
 </p>
 `
