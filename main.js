@@ -8,6 +8,7 @@ import * as minesweeper from './modules/minesweeper'
 import * as arrayReplace from './modules/arrayReplace'
 import * as evenDigitsOnly from './modules/evenDigitsOnly'
 import * as variableName from './modules/variableName'
+import * as alphabeticShift from './modules/alphabeticShift'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -63,5 +64,9 @@ document.querySelector('#app').innerHTML = `
 <p>
   variableName('var_1__Int') =
   ${variableName.solution('var_1__Int')}
+</p>
+<p>
+  alphabeticShift('crazy') =
+  ${alphabeticShift.solution('crazy')}
 </p>
 `
