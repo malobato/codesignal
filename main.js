@@ -9,6 +9,7 @@ import * as arrayReplace from './modules/arrayReplace'
 import * as evenDigitsOnly from './modules/evenDigitsOnly'
 import * as variableName from './modules/variableName'
 import * as alphabeticShift from './modules/alphabeticShift'
+import * as chessBoardCellColor from './modules/chessBoardCellColor'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -68,5 +69,9 @@ document.querySelector('#app').innerHTML = `
 <p>
   alphabeticShift('crazy') =
   ${alphabeticShift.solution('crazy')}
+</p>
+<p>
+  chessBoardCellColor('A1', 'C3') =
+  ${chessBoardCellColor.solution('A1', 'C3')}
 </p>
 `
