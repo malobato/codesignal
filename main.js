@@ -10,6 +10,7 @@ import * as evenDigitsOnly from './modules/evenDigitsOnly'
 import * as variableName from './modules/variableName'
 import * as alphabeticShift from './modules/alphabeticShift'
 import * as chessBoardCellColor from './modules/chessBoardCellColor'
+import * as circleOfNumbers from './modules/circleOfNumbers'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -73,5 +74,9 @@ document.querySelector('#app').innerHTML = `
 <p>
   chessBoardCellColor('A1', 'C3') =
   ${chessBoardCellColor.solution('A1', 'C3')}
+</p>
+<p>
+  circleOfNumbers(10, 2) =
+  ${circleOfNumbers.solution(10, 2)}
 </p>
 `
