@@ -11,6 +11,7 @@ import * as variableName from './modules/variableName'
 import * as alphabeticShift from './modules/alphabeticShift'
 import * as chessBoardCellColor from './modules/chessBoardCellColor'
 import * as circleOfNumbers from './modules/circleOfNumbers'
+import * as depositProfit from './modules/depositProfit'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -78,5 +79,9 @@ document.querySelector('#app').innerHTML = `
 <p>
   circleOfNumbers(10, 2) =
   ${circleOfNumbers.solution(10, 2)}
+</p>
+<p>
+  depositProfit(100, 20, 170) =
+  ${depositProfit.solution(100, 20, 170)}
 </p>
 `

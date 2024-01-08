@@ -67,3 +67,8 @@ Given two cells on the standard chess board, determine whether they have the sam
 Consider integer numbers from 0 to n - 1 written down along the circle in such a way that the distance between any two neighboring numbers is equal (note that 0 and n - 1 are neighboring, too).
 Given n and firstNumber, find the number which is written in the radially opposite position to firstNumber.
 </p>
+
+## Deposit Profit
+<p>
+You have deposited a specific amount of money into your bank account. Each year your balance increases at the same growth rate. With the assumption that you don't make any additional deposits, find out how long it would take for your balance to pass a specific threshold.
+</p>
