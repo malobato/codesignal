@@ -12,6 +12,7 @@ import * as alphabeticShift from './modules/alphabeticShift'
 import * as chessBoardCellColor from './modules/chessBoardCellColor'
 import * as circleOfNumbers from './modules/circleOfNumbers'
 import * as depositProfit from './modules/depositProfit'
+import * as absoluteValuesSumMinimization from './modules/absoluteValuesSumMinimization'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -83,5 +84,9 @@ document.querySelector('#app').innerHTML = `
 <p>
   depositProfit(100, 20, 170) =
   ${depositProfit.solution(100, 20, 170)}
+</p>
+<p>
+  absoluteValuesSumMinimization([2, 4, 7]) =
+  ${absoluteValuesSumMinimization.solution([2, 4, 7])}
 </p>
 `
