@@ -13,6 +13,7 @@ import * as chessBoardCellColor from './modules/chessBoardCellColor'
 import * as circleOfNumbers from './modules/circleOfNumbers'
 import * as depositProfit from './modules/depositProfit'
 import * as absoluteValuesSumMinimization from './modules/absoluteValuesSumMinimization'
+import * as stringsRearrangement from './modules/stringsRearrangement'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -88,5 +89,9 @@ document.querySelector('#app').innerHTML = `
 <p>
   absoluteValuesSumMinimization([2, 4, 7]) =
   ${absoluteValuesSumMinimization.solution([2, 4, 7])}
+</p>
+<p>
+  stringsRearrangement(["aba", "bbb", "bab"]) =
+  ${stringsRearrangement.solution(['aba', 'bbb', 'bab'])}
 </p>
 `
