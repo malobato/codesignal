@@ -14,6 +14,7 @@ import * as circleOfNumbers from './modules/circleOfNumbers'
 import * as depositProfit from './modules/depositProfit'
 import * as absoluteValuesSumMinimization from './modules/absoluteValuesSumMinimization'
 import * as stringsRearrangement from './modules/stringsRearrangement'
+import * as extractEachKth from './modules/extractEachKth'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -93,5 +94,9 @@ document.querySelector('#app').innerHTML = `
 <p>
   stringsRearrangement(["aba", "bbb", "bab"]) =
   ${stringsRearrangement.solution(['aba', 'bbb', 'bab'])}
+</p>
+<p>
+  extractEachKth([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 3) =
+  ${extractEachKth.solution([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 3)}
 </p>
 `
