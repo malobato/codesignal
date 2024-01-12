@@ -15,6 +15,7 @@ import * as depositProfit from './modules/depositProfit'
 import * as absoluteValuesSumMinimization from './modules/absoluteValuesSumMinimization'
 import * as stringsRearrangement from './modules/stringsRearrangement'
 import * as extractEachKth from './modules/extractEachKth'
+import * as firstDigit from './modules/firstDigit'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -98,5 +99,9 @@ document.querySelector('#app').innerHTML = `
 <p>
   extractEachKth([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 3) =
   ${extractEachKth.solution([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 3)}
+</p>
+<p>
+  firstDigit("var_1__Int") =
+  ${firstDigit.solution('var_1__Int')}
 </p>
 `

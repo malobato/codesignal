@@ -87,3 +87,8 @@ Given an array of equal-length strings, you'd like to know if it's possible to r
 <p>
 Given array of integers, remove each kth element from it.
 </p>
+
+## First Digit
+<p>
+Find the leftmost digit that occurs in a given string.
+</p>
