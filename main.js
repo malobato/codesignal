@@ -16,6 +16,7 @@ import * as absoluteValuesSumMinimization from './modules/absoluteValuesSumMinim
 import * as stringsRearrangement from './modules/stringsRearrangement'
 import * as extractEachKth from './modules/extractEachKth'
 import * as firstDigit from './modules/firstDigit'
+import * as differentSymbolsNaive from './modules/differentSymbolsNaive'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -103,5 +104,9 @@ document.querySelector('#app').innerHTML = `
 <p>
   firstDigit("var_1__Int") =
   ${firstDigit.solution('var_1__Int')}
+</p>
+<p>
+  differentSymbolsNaive("cabca") =
+  ${differentSymbolsNaive.solution('cabca')}
 </p>
 `

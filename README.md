@@ -92,3 +92,8 @@ Given array of integers, remove each kth element from it.
 <p>
 Find the leftmost digit that occurs in a given string.
 </p>
+
+## DifferentSymbols Naive
+<p>
+Given a string, find the number of different characters in it.
+</p>
