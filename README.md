@@ -97,3 +97,8 @@ Find the leftmost digit that occurs in a given string.
 <p>
 Given a string, find the number of different characters in it.
 </p>
+
+## Array Max Consecutive Sum
+<p>
+Given array of integers, find the maximal possible sum of some of its k consecutive elements.
+</p>

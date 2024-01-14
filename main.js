@@ -17,6 +17,7 @@ import * as stringsRearrangement from './modules/stringsRearrangement'
 import * as extractEachKth from './modules/extractEachKth'
 import * as firstDigit from './modules/firstDigit'
 import * as differentSymbolsNaive from './modules/differentSymbolsNaive'
+import * as arrayMaxConsecutiveSum from './modules/arrayMaxConsecutiveSum'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -108,5 +109,9 @@ document.querySelector('#app').innerHTML = `
 <p>
   differentSymbolsNaive("cabca") =
   ${differentSymbolsNaive.solution('cabca')}
+</p>
+<p>
+  arrayMaxConsecutiveSum([2, 3, 5, 1, 6], 2) =
+  ${arrayMaxConsecutiveSum.solution([2, 3, 5, 1, 6], 2)}
 </p>
 `
