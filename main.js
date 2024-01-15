@@ -18,6 +18,7 @@ import * as extractEachKth from './modules/extractEachKth'
 import * as firstDigit from './modules/firstDigit'
 import * as differentSymbolsNaive from './modules/differentSymbolsNaive'
 import * as arrayMaxConsecutiveSum from './modules/arrayMaxConsecutiveSum'
+import * as growingPlant from './modules/growingPlant'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -113,5 +114,9 @@ document.querySelector('#app').innerHTML = `
 <p>
   arrayMaxConsecutiveSum([2, 3, 5, 1, 6], 2) =
   ${arrayMaxConsecutiveSum.solution([2, 3, 5, 1, 6], 2)}
+</p>
+<p>
+  growingPlant(100, 10, 910) =
+  ${growingPlant.solution(100, 10, 910)}
 </p>
 `
