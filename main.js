@@ -19,6 +19,7 @@ import * as firstDigit from './modules/firstDigit'
 import * as differentSymbolsNaive from './modules/differentSymbolsNaive'
 import * as arrayMaxConsecutiveSum from './modules/arrayMaxConsecutiveSum'
 import * as growingPlant from './modules/growingPlant'
+import * as knapsackLight from './modules/knapsackLight'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -119,4 +120,9 @@ document.querySelector('#app').innerHTML = `
   growingPlant(100, 10, 910) =
   ${growingPlant.solution(100, 10, 910)}
 </p>
+<p>
+  knapsackLight(10, 5, 6, 4, 8) =
+  ${knapsackLight.solution(10, 5, 6, 4, 8)}
+</p>
+
 `
