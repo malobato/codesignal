@@ -20,6 +20,7 @@ import * as differentSymbolsNaive from './modules/differentSymbolsNaive'
 import * as arrayMaxConsecutiveSum from './modules/arrayMaxConsecutiveSum'
 import * as growingPlant from './modules/growingPlant'
 import * as knapsackLight from './modules/knapsackLight'
+import * as longestDigitsPrefix from './modules/longestDigitsPrefix'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -124,5 +125,8 @@ document.querySelector('#app').innerHTML = `
   knapsackLight(10, 5, 6, 4, 8) =
   ${knapsackLight.solution(10, 5, 6, 4, 8)}
 </p>
-
+<p>
+  longestDigitsPrefix('123aa1') =
+  ${longestDigitsPrefix.solution('123aa1')}
+</p>
 `
