@@ -116,7 +116,13 @@ You found two items in a treasure chest! The first item weighs weight1 and is wo
 Note that there are only two items and you can't bring more than one item of each type, i.e. you can't take two first items or two second items.
 </p>
 
-##  Longest Digits Prefix
+## Longest Digits Prefix
 <p>
 Given a string, output its longest prefix which contains only digits.
+</p>
+
+## Digit Degree
+<p>
+Let's define digit degree of some positive integer as the number of times we need to replace this number with the sum of its digits until we get to a one digit number.
+Given an integer, find its digit degree.
 </p>
