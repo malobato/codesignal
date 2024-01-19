@@ -126,3 +126,9 @@ Given a string, output its longest prefix which contains only digits.
 Let's define digit degree of some positive integer as the number of times we need to replace this number with the sum of its digits until we get to a one digit number.
 Given an integer, find its digit degree.
 </p>
+
+## Bishop and Pawn
+<p>
+Given the positions of a white bishop and a black pawn on the standard chess board, determine whether the bishop can capture the pawn in one move.
+The bishop has no restrictions in distance for each move, but is limited to diagonal movement.
+</p>

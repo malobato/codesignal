@@ -22,6 +22,7 @@ import * as growingPlant from './modules/growingPlant'
 import * as knapsackLight from './modules/knapsackLight'
 import * as longestDigitsPrefix from './modules/longestDigitsPrefix'
 import * as digitDegree from './modules/digitDegree'
+import * as bishopAndPawn from './modules/bishopAndPawn'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -133,5 +134,9 @@ document.querySelector('#app').innerHTML = `
 <p>
   digitDegree(5) =
   ${digitDegree.solution(5)}
+</p>
+<p>
+  bishopAndPawn('a1', 'c3') =
+  ${bishopAndPawn.solution('a1', 'c3')}
 </p>
 `
