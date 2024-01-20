@@ -23,6 +23,7 @@ import * as knapsackLight from './modules/knapsackLight'
 import * as longestDigitsPrefix from './modules/longestDigitsPrefix'
 import * as digitDegree from './modules/digitDegree'
 import * as bishopAndPawn from './modules/bishopAndPawn'
+import * as isBeautifulString from './modules/isBeautifulString'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -139,4 +140,9 @@ document.querySelector('#app').innerHTML = `
   bishopAndPawn('a1', 'c3') =
   ${bishopAndPawn.solution('a1', 'c3')}
 </p>
+<p>
+  isBeautifulString('bbbaacdafe') =
+  ${isBeautifulString.solution('bbbaacdafe')}
+</p>
+
 `
