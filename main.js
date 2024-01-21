@@ -24,6 +24,7 @@ import * as longestDigitsPrefix from './modules/longestDigitsPrefix'
 import * as digitDegree from './modules/digitDegree'
 import * as bishopAndPawn from './modules/bishopAndPawn'
 import * as isBeautifulString from './modules/isBeautifulString'
+import * as findEmailDomain from './modules/findEmailDomain'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -144,5 +145,8 @@ document.querySelector('#app').innerHTML = `
   isBeautifulString('bbbaacdafe') =
   ${isBeautifulString.solution('bbbaacdafe')}
 </p>
-
+<p>
+findEmailDomain('prettyandsimple@example.com') =
+  ${findEmailDomain.solution('prettyandsimple@example.com')}
+</p>
 `

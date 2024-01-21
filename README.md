@@ -138,3 +138,10 @@ The bishop has no restrictions in distance for each move, but is limited to diag
 A string is said to be beautiful if each letter in the string appears at most as many times as the previous letter in the alphabet within the string; ie: b occurs no more times than a; c occurs no more times than b; etc. Note that letter a has no previous letter.
 Given a string, check whether it is beautiful.
 </p>
+
+## Find Email Domain
+<p>
+An email address such as "John.Smith@example.com" is made up of a local part ("John.Smith"), an "@" symbol, then a domain part ("example.com").
+The domain name part of an email address may only consist of letters, digits, hyphens and dots. The local part, however, also allows a lot of different special characters. Here you can look at several examples of correct and incorrect email addresses.
+Given a valid email address, find its domain part.
+</p>
