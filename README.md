@@ -145,3 +145,8 @@ An email address such as "John.Smith@example.com" is made up of a local part ("J
 The domain name part of an email address may only consist of letters, digits, hyphens and dots. The local part, however, also allows a lot of different special characters. Here you can look at several examples of correct and incorrect email addresses.
 Given a valid email address, find its domain part.
 </p>
+
+## Build Palindrome
+<p>
+Given a string, find the shortest possible string which can be achieved by adding characters to the end of initial string to make it a palindrome.
+</p>

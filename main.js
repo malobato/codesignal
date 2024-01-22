@@ -25,6 +25,7 @@ import * as digitDegree from './modules/digitDegree'
 import * as bishopAndPawn from './modules/bishopAndPawn'
 import * as isBeautifulString from './modules/isBeautifulString'
 import * as findEmailDomain from './modules/findEmailDomain'
+import * as buildPalindrome from './modules/buildPalindrome'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -148,5 +149,9 @@ document.querySelector('#app').innerHTML = `
 <p>
 findEmailDomain('prettyandsimple@example.com') =
   ${findEmailDomain.solution('prettyandsimple@example.com')}
+</p>
+<p>
+buildPalindrome('abcdc') =
+  ${buildPalindrome.solution('abcdc')}
 </p>
 `
