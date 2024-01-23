@@ -26,6 +26,7 @@ import * as bishopAndPawn from './modules/bishopAndPawn'
 import * as isBeautifulString from './modules/isBeautifulString'
 import * as findEmailDomain from './modules/findEmailDomain'
 import * as buildPalindrome from './modules/buildPalindrome'
+import * as electionsWinner from './modules/electionsWinner'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -153,5 +154,9 @@ findEmailDomain('prettyandsimple@example.com') =
 <p>
 buildPalindrome('abcdc') =
   ${buildPalindrome.solution('abcdc')}
+</p>
+<p>
+electionsWinner([2, 3, 5, 2], 3) =
+  ${electionsWinner.solution([2, 3, 5, 2], 3)}
 </p>
 `
