@@ -27,6 +27,7 @@ import * as isBeautifulString from './modules/isBeautifulString'
 import * as findEmailDomain from './modules/findEmailDomain'
 import * as buildPalindrome from './modules/buildPalindrome'
 import * as electionsWinner from './modules/electionsWinner'
+import * as isMAC48Address from './modules/isMAC48Address'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -158,5 +159,9 @@ buildPalindrome('abcdc') =
 <p>
 electionsWinner([2, 3, 5, 2], 3) =
   ${electionsWinner.solution([2, 3, 5, 2], 3)}
+</p>
+<p>
+isMAC48Address('00-1B-63-84-45-E6') =
+  ${isMAC48Address.solution('00-1B-63-84-45-E6')}
 </p>
 `
