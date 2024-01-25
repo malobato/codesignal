@@ -28,6 +28,7 @@ import * as findEmailDomain from './modules/findEmailDomain'
 import * as buildPalindrome from './modules/buildPalindrome'
 import * as electionsWinner from './modules/electionsWinner'
 import * as isMAC48Address from './modules/isMAC48Address'
+import * as isDigit from './modules/isDigit'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -163,5 +164,8 @@ electionsWinner([2, 3, 5, 2], 3) =
 <p>
 isMAC48Address('00-1B-63-84-45-E6') =
   ${isMAC48Address.solution('00-1B-63-84-45-E6')}
+</p>
+isDigit('0') =
+  ${isDigit.solution('0')}
 </p>
 `
