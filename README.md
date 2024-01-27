@@ -179,3 +179,9 @@ Next, each substring with length greater than one is replaced with a concatenati
 for example, substring "bbb" is replaced by "3b"
 Finally, all the new strings are concatenated together in the same order and a new string is returned.
 </p>
+
+## chess Knight
+<p>
+Given a position of a knight on the standard chessboard, find the number of different moves the knight can perform.
+The knight can move to a square that is two squares horizontally and one square vertically, or two squares vertically and one square horizontally away from it. The complete move therefore looks like the letter L. Check out the image below to see all valid moves for a knight piece that is placed on one of the central squares.
+</p>

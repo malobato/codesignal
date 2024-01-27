@@ -30,6 +30,7 @@ import * as electionsWinner from './modules/electionsWinner'
 import * as isMAC48Address from './modules/isMAC48Address'
 import * as isDigit from './modules/isDigit'
 import * as lineEncoding from './modules/lineEncoding'
+import * as chessKnight from './modules/chessKnight'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -173,5 +174,9 @@ isDigit('0') =
 <p>
 lineEncoding('aabbbc') =
   ${lineEncoding.solution('aabbbc')}
+</p>
+<p>
+chessKnight('a1') =
+  ${chessKnight.solution('a1')}
 </p>
 `
