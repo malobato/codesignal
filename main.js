@@ -31,6 +31,7 @@ import * as isMAC48Address from './modules/isMAC48Address'
 import * as isDigit from './modules/isDigit'
 import * as lineEncoding from './modules/lineEncoding'
 import * as chessKnight from './modules/chessKnight'
+import * as deleteDigit from './modules/deleteDigit'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -178,5 +179,9 @@ lineEncoding('aabbbc') =
 <p>
 chessKnight('a1') =
   ${chessKnight.solution('a1')}
+</p>
+<p>
+deleteDigit(152) =
+  ${deleteDigit.solution(152)}
 </p>
 `
