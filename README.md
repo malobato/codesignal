@@ -190,3 +190,8 @@ The knight can move to a square that is two squares horizontally and one square 
 <p>
 Given some integer, find the maximal number you can obtain by deleting exactly one digit of the given number.
 </p>
+
+## longest Word
+<p>
+Define a word as a sequence of consecutive English letters. Find the longest word from the given string.
+</p>

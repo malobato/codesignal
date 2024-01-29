@@ -32,6 +32,7 @@ import * as isDigit from './modules/isDigit'
 import * as lineEncoding from './modules/lineEncoding'
 import * as chessKnight from './modules/chessKnight'
 import * as deleteDigit from './modules/deleteDigit'
+import * as longestWord from './modules/longestWord'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -183,5 +184,9 @@ chessKnight('a1') =
 <p>
 deleteDigit(152) =
   ${deleteDigit.solution(152)}
+</p>
+<p>
+longestWord('Ready, steady, go!') =
+  ${longestWord.solution('Ready, steady, go!')}
 </p>
 `
