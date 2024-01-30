@@ -33,6 +33,7 @@ import * as lineEncoding from './modules/lineEncoding'
 import * as chessKnight from './modules/chessKnight'
 import * as deleteDigit from './modules/deleteDigit'
 import * as longestWord from './modules/longestWord'
+import * as validTime from './modules/validTime'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -188,5 +189,9 @@ deleteDigit(152) =
 <p>
 longestWord('Ready, steady, go!') =
   ${longestWord.solution('Ready, steady, go!')}
+</p>
+<p>
+validTime('13:58') =
+  ${validTime.solution('13:58')}
 </p>
 `

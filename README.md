@@ -195,3 +195,8 @@ Given some integer, find the maximal number you can obtain by deleting exactly o
 <p>
 Define a word as a sequence of consecutive English letters. Find the longest word from the given string.
 </p>
+
+## Valid Time
+<p>
+Check if the given string is a correct time representation of the 24-hour clock.
+</p>
