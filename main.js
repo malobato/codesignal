@@ -34,6 +34,7 @@ import * as chessKnight from './modules/chessKnight'
 import * as deleteDigit from './modules/deleteDigit'
 import * as longestWord from './modules/longestWord'
 import * as validTime from './modules/validTime'
+import * as sumUpNumbers from './modules/sumUpNumbers'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -194,4 +195,9 @@ longestWord('Ready, steady, go!') =
 validTime('13:58') =
   ${validTime.solution('13:58')}
 </p>
+<p>
+sumUpNumbers('2 apples, 12 oranges') =
+  ${sumUpNumbers.solution('2 apples, 12 oranges')}
+</p>
+
 `
