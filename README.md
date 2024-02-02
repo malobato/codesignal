@@ -211,3 +211,8 @@ Help Ratiorg by writing a function that returns the sum of numbers that appear i
 <p>
 Given a rectangular matrix containing only digits, calculate the number of different 2 × 2 squares in it.
 </p>
+
+## Digits Product
+<p>
+Given an integer product, find the smallest positive (i.e. greater than 0) integer the product of whose digits is equal to product. If there is no such integer, return -1 instead.
+</p>

@@ -36,6 +36,7 @@ import * as longestWord from './modules/longestWord'
 import * as validTime from './modules/validTime'
 import * as sumUpNumbers from './modules/sumUpNumbers'
 import * as differentSquares from './modules/differentSquares'
+import * as digitsProduct from './modules/digitsProduct'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -203,5 +204,8 @@ sumUpNumbers('2 apples, 12 oranges') =
 <p>
 differentSquares([[1, 2, 1], [2, 2, 2], [2, 2, 2], [1, 2, 3], [2, 2, 1]]) =
   ${differentSquares.solution([[1, 2, 1], [2, 2, 2], [2, 2, 2], [1, 2, 3], [2, 2, 1]])}
+</p>
+digitsProduct(12) =
+  ${digitsProduct.solution(12)}
 </p>
 `
