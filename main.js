@@ -37,6 +37,7 @@ import * as validTime from './modules/validTime'
 import * as sumUpNumbers from './modules/sumUpNumbers'
 import * as differentSquares from './modules/differentSquares'
 import * as digitsProduct from './modules/digitsProduct'
+import * as fileNaming from './modules/fileNaming'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -205,7 +206,12 @@ sumUpNumbers('2 apples, 12 oranges') =
 differentSquares([[1, 2, 1], [2, 2, 2], [2, 2, 2], [1, 2, 3], [2, 2, 1]]) =
   ${differentSquares.solution([[1, 2, 1], [2, 2, 2], [2, 2, 2], [1, 2, 3], [2, 2, 1]])}
 </p>
+<p>
 digitsProduct(12) =
   ${digitsProduct.solution(12)}
+</p>
+<p>
+fileNaming(['doc', 'doc', 'image', 'doc(1)', 'doc']) =
+  ${fileNaming.solution(['doc', 'doc', 'image', 'doc(1)', 'doc'])}
 </p>
 `
