@@ -38,6 +38,7 @@ import * as sumUpNumbers from './modules/sumUpNumbers'
 import * as differentSquares from './modules/differentSquares'
 import * as digitsProduct from './modules/digitsProduct'
 import * as fileNaming from './modules/fileNaming'
+import * as messageFromBinaryCode from './modules/messageFromBinaryCode'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -213,5 +214,9 @@ digitsProduct(12) =
 <p>
 fileNaming(['doc', 'doc', 'image', 'doc(1)', 'doc']) =
   ${fileNaming.solution(['doc', 'doc', 'image', 'doc(1)', 'doc'])}
+</p>
+<p>
+messageFromBinaryCode('010010000110010101101100011011000110111100100001') =
+  ${messageFromBinaryCode.solution('010010000110010101101100011011000110111100100001')}
 </p>
 `

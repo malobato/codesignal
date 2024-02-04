@@ -222,3 +222,9 @@ Given an integer product, find the smallest positive (i.e. greater than 0) integ
 You are given an array of strings names representing filenames. The array is sorted in order of file creation, such that names[i] represents the name of a file created before names[i+1] and after names[i-1] (assume 0-based indexing). Because all files must have unique names, files created later with the same name as a file created earlier should have an additional (k) suffix in their names, where k is the smallest positive integer (starting from 1) that does not appear in previous file names.
 Your task is to iterate through all elements of names (from left to right) and update all filenames based on the above. Return an array of proper filenames.
 </p>
+
+## Message From Binary Code
+<p>
+You are taking part in an Escape Room challenge designed specifically for programmers. In your efforts to find a clue, you've found a binary code written on the wall behind a vase, and realized that it must be an encrypted message. After some thought, your first guess is that each consecutive 8 bits of the code stand for the character with the corresponding extended ASCII code.
+Assuming that your hunch is correct, decode the message.
+</p>
