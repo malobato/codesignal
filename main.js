@@ -39,6 +39,7 @@ import * as differentSquares from './modules/differentSquares'
 import * as digitsProduct from './modules/digitsProduct'
 import * as fileNaming from './modules/fileNaming'
 import * as messageFromBinaryCode from './modules/messageFromBinaryCode'
+import * as spiralNumbers from './modules/spiralNumbers'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -218,5 +219,9 @@ fileNaming(['doc', 'doc', 'image', 'doc(1)', 'doc']) =
 <p>
 messageFromBinaryCode('010010000110010101101100011011000110111100100001') =
   ${messageFromBinaryCode.solution('010010000110010101101100011011000110111100100001')}
+</p>
+<p>
+spiralNumbers(3) =
+  ${spiralNumbers.solution(3)}
 </p>
 `
