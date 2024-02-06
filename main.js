@@ -40,6 +40,7 @@ import * as digitsProduct from './modules/digitsProduct'
 import * as fileNaming from './modules/fileNaming'
 import * as messageFromBinaryCode from './modules/messageFromBinaryCode'
 import * as spiralNumbers from './modules/spiralNumbers'
+import * as sudoku from './modules/sudoku'
 
 document.querySelector('#app').innerHTML = `
 <p>
@@ -223,5 +224,29 @@ messageFromBinaryCode('010010000110010101101100011011000110111100100001') =
 <p>
 spiralNumbers(3) =
   ${spiralNumbers.solution(3)}
+</p>
+<p>
+sudoku([
+  [1, 3, 2, 5, 4, 6, 9, 8, 7],
+  [4, 6, 5, 8, 7, 9, 3, 2, 1],
+  [7, 9, 8, 2, 1, 3, 6, 5, 4],
+  [9, 2, 1, 4, 3, 5, 8, 7, 6],
+  [3, 5, 4, 7, 6, 8, 2, 1, 9],
+  [6, 8, 7, 1, 9, 2, 5, 4, 3],
+  [5, 7, 6, 9, 8, 1, 4, 3, 2],
+  [2, 4, 3, 6, 5, 7, 1, 9, 8],
+  [8, 1, 9, 3, 2, 4, 7, 6, 5]
+]) =
+  ${sudoku.solution([
+    [1, 3, 2, 5, 4, 6, 9, 8, 7],
+    [4, 6, 5, 8, 7, 9, 3, 2, 1],
+    [7, 9, 8, 2, 1, 3, 6, 5, 4],
+    [9, 2, 1, 4, 3, 5, 8, 7, 6],
+    [3, 5, 4, 7, 6, 8, 2, 1, 9],
+    [6, 8, 7, 1, 9, 2, 5, 4, 3],
+    [5, 7, 6, 9, 8, 1, 4, 3, 2],
+    [2, 4, 3, 6, 5, 7, 1, 9, 8],
+    [8, 1, 9, 3, 2, 4, 7, 6, 5]
+  ])}
 </p>
 `
