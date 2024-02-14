@@ -1,6 +1,3 @@
-import { createLogger } from "vite"
-
-/* eslint-disable camelcase */
 export const solution = (min1, min2_10, min11, s) => {
   let time = 0
   let credit = s
