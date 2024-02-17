@@ -1,0 +1,3 @@
+export const solution = (experience, threshold, reward) => {
+  return (experience + reward) >= threshold
+}

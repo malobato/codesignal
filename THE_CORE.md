@@ -52,3 +52,9 @@ Some phone usage rate may be described as follows:
 - each minute after 10th costs min11 cents.
 You have s cents on your account before the call. What is the duration of the longest call (in minutes rounded down to the nearest integer) you can have?
 </p>
+
+### - Reach Next Level
+<p>
+You are playing an RPG game. Currently your experience points (XP) total is equal to experience. To reach the next level your XP should be at least at threshold. If you kill the monster in front of you, you will gain more experience points in the amount of the reward.
+Given values experience, threshold and reward, check if you reach the next level after killing the monster.
+</p>
